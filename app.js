@@ -40422,7 +40422,7 @@ var staticRenderFns = [
         attrs: {
           "data-href": "https://retrocib.github.io",
           "data-width": "",
-          "data-layout": "button_count",
+          "data-layout": "standard",
           "data-action": "like",
           "data-size": "small",
           "data-share": "true"
@@ -53856,8 +53856,8 @@ var Util = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! e:\htdocs\_personal\retrocib.github.io\src\js\app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! e:\htdocs\_personal\retrocib.github.io\src\sass\app.scss */"./src/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\www\retrocib.github.io\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\www\retrocib.github.io\src\sass\app.scss */"./src/sass/app.scss");
 
 
 /***/ })
