@@ -1,11 +1,11 @@
 const RO = {
   resume: {
-    title: "RESUME OBJECTIVE",
+    title: "Pe SCuRT",
     content:
       "Web Developer with 5+ years of experience in designing and developing user interfaces, testing, debugging, and training staff within eCommerce technologies. Proven ability in optimizing web functionalities that improve data retrieval and workflow efficiencies."
   },
   experience: {
-    title: "EXPERIENCE",
+    title: "eXPeRieNTa",
     content: [
       {
         position: "WEB DEVELOPER",
@@ -38,7 +38,7 @@ const RO = {
     ]
   },
   contact: {
-    title: "CONTACT",
+    title: "CoNTaCT",
     content: {
       emails: ["retrocib@gmail.com"],
       phones: ["(+40) 728 462 884"],
@@ -58,7 +58,7 @@ const RO = {
     }
   },
   skills: {
-    title: "SKILLS",
+    title: "aBiLiTaTi",
     content: [
       {
         title: "PHP",
@@ -71,7 +71,7 @@ const RO = {
     ]
   },
   education: {
-    title: "EDUCATION",
+    title: "eDuCaTie",
     content: [
       {
         course: "B.S. WEB DEVELOPMENT",

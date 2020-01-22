@@ -4,16 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>(Retro) Catalin Ionut BADEA</title>
-    <link rel="stylesheet" type="text/css" href="app.css" />
+    <!--  -->
+    <title>Ionut-Catalin BADEA</title>
+    <!-- You can use Open Graph tags to customize link previews. Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta property="og:url" content="https://retrocib.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ionut-Catalin BADEA" />
+    <meta property="og:description" content="Your description" />
+    <meta property="og:image" content="https://retrocib.github.io/images/image.jpg" />
+    <!--  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="app.css" />    
 </head>
 
 <body>
-    <div id="application" v-cloak>
+    <b-container id="application" v-cloak>
         <app-header></app-header>
         <app-main></app-main>
-    </div>
+        <app-footer></app-footer>
+    </b-container>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/ro_RO/sdk.js#xfbml=1&version=v5.0"></script>
     <script src="app.js"></script>
 </body>
 
