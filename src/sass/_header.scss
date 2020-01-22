@@ -1,0 +1,31 @@
+header {
+  margin: 3rem 0 6rem;
+  .flags {
+    text-align: right;
+    margin-bottom: 2rem;
+    span {
+      margin: 0 2px;
+    }
+
+    a { 
+      position: relative;
+      display: inline-block;
+
+      margin: 0 10px;
+    }
+  }
+  .title {
+    margin-bottom: 2rem;
+    h1 {
+      span {
+        display: block;
+        &:first-child {
+          font-size: 4rem;
+        }
+        &:last-child {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
