@@ -12223,7 +12223,7 @@ body {
   box-sizing: border-box;
   font-size: 1.4rem;
   background-color: #ffffff;
-  color: #493D30;
+  color: #000;
 }
 
 h1,
@@ -12280,7 +12280,7 @@ a:hover {
   color: #493D30;
   text-decoration: none;
   box-shadow: #ffffff 0 1.1rem inset;
-  background-color: #D8B270;
+  background-color: #ddd;
 }
 
 header {
@@ -12309,6 +12309,13 @@ header .title h1 span:first-child {
 }
 header .title h1 span:last-child {
   font-size: 2.9rem;
+}
+
+main section#contact ul {
+  margin-left: 0;
+}
+main section#contact ul li {
+  list-style-type: none;
 }
 
 footer {
