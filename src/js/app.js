@@ -4,7 +4,7 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 
-import { i18n } from "./i18n";
+import { i18n } from "./dictionary/i18n";
 import { Util } from "./util";
 
 window.i18n = i18n;

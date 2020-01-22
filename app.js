@@ -40472,7 +40472,7 @@ var render = function() {
                   click: function($event) {
                     $event.stopPropagation()
                     $event.preventDefault()
-                    return _vm.changeLocale("ro")
+                    return _vm.changeLocale("ro-RO")
                   }
                 }
               },
@@ -40489,7 +40489,7 @@ var render = function() {
                   click: function($event) {
                     $event.stopPropagation()
                     $event.preventDefault()
-                    return _vm.changeLocale("en")
+                    return _vm.changeLocale("en-UK")
                   }
                 }
               },
@@ -52996,7 +52996,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _i18n__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./i18n */ "./src/js/i18n.js");
+/* harmony import */ var _dictionary_i18n__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./dictionary/i18n */ "./src/js/dictionary/i18n.js");
 /* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./util */ "./src/js/util.js");
 
 
@@ -53004,11 +53004,11 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_M
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["IconsPlugin"]);
 
 
-window.i18n = _i18n__WEBPACK_IMPORTED_MODULE_2__["i18n"];
+window.i18n = _dictionary_i18n__WEBPACK_IMPORTED_MODULE_2__["i18n"];
 window.Util = _util__WEBPACK_IMPORTED_MODULE_3__["Util"]; //
 
 var Application = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
-  i18n: _i18n__WEBPACK_IMPORTED_MODULE_2__["i18n"],
+  i18n: _dictionary_i18n__WEBPACK_IMPORTED_MODULE_2__["i18n"],
   el: "#application",
   components: {
     AppHeader: __webpack_require__(/*! ./components/header */ "./src/js/components/header.vue")["default"],
@@ -53591,10 +53591,99 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/js/i18n.js":
-/*!************************!*\
-  !*** ./src/js/i18n.js ***!
-  \************************/
+/***/ "./src/js/dictionary/en-UK.js":
+/*!************************************!*\
+  !*** ./src/js/dictionary/en-UK.js ***!
+  \************************************/
+/*! exports provided: enUK */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "enUK", function() { return enUK; });
+var enUK = {
+  resume: {
+    title: "RESUME OBJECTIVE",
+    content: "Web Developer with 5+ years of experience in designing and developing user interfaces, testing, debugging, and training staff within eCommerce technologies. Proven ability in optimizing web functionalities that improve data retrieval and workflow efficiencies."
+  },
+  experience: {
+    title: "EXPERIENCE",
+    content: [{
+      position: "WEB DEVELOPER",
+      employer: "Grooming Technologies, Fullerton, CA",
+      timeline: {
+        from: "September 2016",
+        to: "Present"
+      },
+      description: ["Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%", "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%", "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes", "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"]
+    }, {
+      position: "WEB DEVELOPER",
+      employer: "Grooming Technologies, Fullerton, CA",
+      timeline: {
+        from: "September 2016",
+        to: "Present"
+      },
+      description: ["Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%", "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%", "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes", "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"]
+    }]
+  },
+  contact: {
+    title: "CONTACT",
+    content: {
+      emails: ["retrocib@gmail.com"],
+      phones: ["(+40) 728 462 884"],
+      address: ["Colentina, Bucuresti / RO", "Calarasi, Calarasi / RO"],
+      socials: [{
+        title: "facebook",
+        link: "https://facebook.com"
+      }, {
+        title: "linkedin",
+        link: "https://linkedin.com"
+      }]
+    }
+  },
+  skills: {
+    title: "SKILLS",
+    content: [{
+      title: "PHP",
+      level: 0
+    }, {
+      title: "JS",
+      level: 0
+    }]
+  },
+  education: {
+    title: "EDUCATION",
+    content: [{
+      course: "B.S. WEB DEVELOPMENT",
+      school: "California State University Fullerton, CA",
+      timeline: {
+        from: "September 2016",
+        to: "Present"
+      }
+    }, {
+      course: "B.S. WEB DEVELOPMENT",
+      school: "California State University Fullerton, CA",
+      timeline: {
+        from: "September 2016",
+        to: "Present"
+      }
+    }]
+  },
+  //
+  txt: {
+    testimonials: "Testimonials"
+  },
+  message: {
+    hello: "hello world"
+  }
+};
+
+/***/ }),
+
+/***/ "./src/js/dictionary/i18n.js":
+/*!***********************************!*\
+  !*** ./src/js/dictionary/i18n.js ***!
+  \***********************************/
 /*! exports provided: i18n */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -53604,7 +53693,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var vue_i18n__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-i18n */ "./node_modules/vue-i18n/dist/vue-i18n.esm.js");
-var RO = {
+/* harmony import */ var _ro_RO__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ro-RO */ "./src/js/dictionary/ro-RO.js");
+/* harmony import */ var _en_UK__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./en-UK */ "./src/js/dictionary/en-UK.js");
+//
+
+
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_i18n__WEBPACK_IMPORTED_MODULE_1__["default"]);
+
+
+var i18n = new vue_i18n__WEBPACK_IMPORTED_MODULE_1__["default"]({
+  locale: "ro-RO",
+  messages: {
+    "ro-RO": _ro_RO__WEBPACK_IMPORTED_MODULE_2__["roRO"],
+    "en-UK": _en_UK__WEBPACK_IMPORTED_MODULE_3__["enUK"]
+  }
+});
+
+/***/ }),
+
+/***/ "./src/js/dictionary/ro-RO.js":
+/*!************************************!*\
+  !*** ./src/js/dictionary/ro-RO.js ***!
+  \************************************/
+/*! exports provided: roRO */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "roRO", function() { return roRO; });
+var roRO = {
   resume: {
     title: "Pe SCuRT",
     content: "Sunt un programator cu o vechime de peste 5+ ani in web design si development."
@@ -53694,164 +53811,6 @@ var RO = {
     hello: "salut lume!"
   }
 };
-var EN = {
-  resume: {
-    title: "RESUME OBJECTIVE",
-    content: "Web Developer with 5+ years of experience in designing and developing user interfaces, testing, debugging, and training staff within eCommerce technologies. Proven ability in optimizing web functionalities that improve data retrieval and workflow efficiencies."
-  },
-  experience: {
-    title: "EXPERIENCE",
-    content: [{
-      position: "WEB DEVELOPER",
-      employer: "Grooming Technologies, Fullerton, CA",
-      timeline: {
-        from: "September 2016",
-        to: "Present"
-      },
-      description: ["Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%", "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%", "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes", "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"]
-    }, {
-      position: "WEB DEVELOPER",
-      employer: "Grooming Technologies, Fullerton, CA",
-      timeline: {
-        from: "September 2016",
-        to: "Present"
-      },
-      description: ["Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%", "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%", "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes", "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"]
-    }]
-  },
-  contact: {
-    title: "CONTACT",
-    content: {
-      emails: ["retrocib@gmail.com"],
-      phones: ["(+40) 728 462 884"],
-      address: ["Colentina, Bucuresti / RO", "Calarasi, Calarasi / RO"],
-      socials: [{
-        title: "facebook",
-        link: "https://facebook.com"
-      }, {
-        title: "linkedin",
-        link: "https://linkedin.com"
-      }]
-    }
-  },
-  skills: {
-    title: "SKILLS",
-    content: [{
-      title: "PHP",
-      level: 0
-    }, {
-      title: "JS",
-      level: 0
-    }]
-  },
-  education: {
-    title: "EDUCATION",
-    content: [{
-      course: "B.S. WEB DEVELOPMENT",
-      school: "California State University Fullerton, CA",
-      timeline: {
-        from: "September 2016",
-        to: "Present"
-      }
-    }, {
-      course: "B.S. WEB DEVELOPMENT",
-      school: "California State University Fullerton, CA",
-      timeline: {
-        from: "September 2016",
-        to: "Present"
-      }
-    }]
-  },
-  //
-  message: {
-    hello: "hello world"
-  }
-};
-var JA = {
-  resume: {
-    title: "RESUME OBJECTIVE",
-    content: "Web Developer with 5+ years of experience in designing and developing user interfaces, testing, debugging, and training staff within eCommerce technologies. Proven ability in optimizing web functionalities that improve data retrieval and workflow efficiencies."
-  },
-  experience: {
-    title: "EXPERIENCE",
-    content: [{
-      position: "WEB DEVELOPER",
-      employer: "Grooming Technologies, Fullerton, CA",
-      timeline: {
-        from: "September 2016",
-        to: "Present"
-      },
-      description: ["Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%", "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%", "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes", "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"]
-    }, {
-      position: "WEB DEVELOPER",
-      employer: "Grooming Technologies, Fullerton, CA",
-      timeline: {
-        from: "September 2016",
-        to: "Present"
-      },
-      description: ["Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%", "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%", "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes", "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"]
-    }]
-  },
-  contact: {
-    title: "CONTACT",
-    content: {
-      emails: ["retrocib@gmail.com"],
-      phones: ["(+40) 728 462 884"],
-      address: ["Colentina, Bucuresti / RO", "Calarasi, Calarasi / RO"],
-      socials: [{
-        title: "facebook",
-        link: "https://facebook.com"
-      }, {
-        title: "linkedin",
-        link: "https://linkedin.com"
-      }]
-    }
-  },
-  skills: {
-    title: "SKILLS",
-    content: [{
-      title: "PHP",
-      level: 0
-    }, {
-      title: "JS",
-      level: 0
-    }]
-  },
-  education: {
-    title: "EDUCATION",
-    content: [{
-      course: "B.S. WEB DEVELOPMENT",
-      school: "California State University Fullerton, CA",
-      timeline: {
-        from: "September 2016",
-        to: "Present"
-      }
-    }, {
-      course: "B.S. WEB DEVELOPMENT",
-      school: "California State University Fullerton, CA",
-      timeline: {
-        from: "September 2016",
-        to: "Present"
-      }
-    }]
-  },
-  //
-  message: {
-    hello: "こんにちは、世界"
-  }
-}; //
-
-
-
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_i18n__WEBPACK_IMPORTED_MODULE_1__["default"]);
-var i18n = new vue_i18n__WEBPACK_IMPORTED_MODULE_1__["default"]({
-  locale: "ro",
-  messages: {
-    ro: RO,
-    en: EN,
-    ja: JA
-  }
-});
 
 /***/ }),
 

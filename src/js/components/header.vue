@@ -2,13 +2,13 @@
   <header>
     <b-row class="flags">
       <b-col cols="12">
-        <a href="#" @click.stop.prevent="changeLocale('ro')">
+        <a href="#" @click.stop.prevent="changeLocale('ro-RO')">
           RO
         </a>
 
         <span>|</span>
 
-        <a href="#" @click.stop.prevent="changeLocale('en')">
+        <a href="#" @click.stop.prevent="changeLocale('en-UK')">
           EN
         </a>
       </b-col>
