@@ -117,6 +117,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "AppFooter",
   props: {},
@@ -155,8 +160,19 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'AppHeader',
+  name: "AppHeader",
   props: {},
   mounted: function mounted() {},
   methods: {
@@ -40374,14 +40390,22 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("footer", [
+    _c("section", [
+      _c("h2", [_vm._v(_vm._s(_vm.$t("txt.testimonials")))]),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1)
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("footer", [
+    return _c("article", [
       _c("div", {
         staticClass: "fb-comments",
         attrs: {
@@ -40389,8 +40413,14 @@ var staticRenderFns = [
           "data-width": "100%",
           "data-numposts": "5"
         }
-      }),
-      _vm._v(" "),
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("article", [
       _c("div", {
         staticClass: "fb-like",
         attrs: {
@@ -40426,60 +40456,67 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("header", [
-    _c("ul", [
-      _c("li", [
-        _c(
-          "a",
-          {
-            attrs: { href: "#" },
-            on: {
-              click: function($event) {
-                $event.stopPropagation()
-                $event.preventDefault()
-                return _vm.changeLocale("ro")
-              }
-            }
-          },
-          [_vm._v("RO")]
-        )
-      ]),
+  return _c(
+    "header",
+    [
+      _c(
+        "b-row",
+        { staticClass: "flags" },
+        [
+          _c("b-col", { attrs: { cols: "12" } }, [
+            _c(
+              "a",
+              {
+                attrs: { href: "#" },
+                on: {
+                  click: function($event) {
+                    $event.stopPropagation()
+                    $event.preventDefault()
+                    return _vm.changeLocale("ro")
+                  }
+                }
+              },
+              [_vm._v("\n        RO\n      ")]
+            ),
+            _vm._v(" "),
+            _c("span", [_vm._v("|")]),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                attrs: { href: "#" },
+                on: {
+                  click: function($event) {
+                    $event.stopPropagation()
+                    $event.preventDefault()
+                    return _vm.changeLocale("en")
+                  }
+                }
+              },
+              [_vm._v("\n        EN\n      ")]
+            )
+          ])
+        ],
+        1
+      ),
       _vm._v(" "),
-      _c("li", [
-        _c(
-          "a",
-          {
-            attrs: { href: "#" },
-            on: {
-              click: function($event) {
-                $event.stopPropagation()
-                $event.preventDefault()
-                return _vm.changeLocale("en")
-              }
-            }
-          },
-          [_vm._v("EN")]
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _c(
-          "a",
-          {
-            attrs: { href: "#" },
-            on: {
-              click: function($event) {
-                $event.stopPropagation()
-                $event.preventDefault()
-                return _vm.changeLocale("ja")
-              }
-            }
-          },
-          [_vm._v("JA")]
-        )
-      ])
-    ])
-  ])
+      _c(
+        "b-row",
+        { staticClass: "title" },
+        [
+          _c("b-col", { attrs: { cols: "12" } }, [
+            _c("h1", [
+              _c("span", [_vm._v("Ionut-Catalin BADEA")]),
+              _vm._v(" "),
+              _c("span", [_vm._v("Web Developer")])
+            ])
+          ])
+        ],
+        1
+      )
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -53575,19 +53612,27 @@ var RO = {
   experience: {
     title: "eXPeRieNTa",
     content: [{
-      position: "WEB DEVELOPER",
-      employer: "Grooming Technologies, Fullerton, CA",
+      position: "DEVELOPER",
+      employer: "Prestimedia Digital Solution / Bucuresti, RO",
       timeline: {
-        from: "September 2016",
+        from: "Februarie 2017",
         to: "Present"
       },
       description: ["Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%", "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%", "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes", "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"]
     }, {
-      position: "WEB DEVELOPER",
-      employer: "Grooming Technologies, Fullerton, CA",
+      position: "DEVELOPER",
+      employer: "Freelancer / Bucuresti, RO",
       timeline: {
-        from: "September 2016",
+        from: "August 2015",
         to: "Present"
+      },
+      description: ["Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%", "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%", "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes", "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"]
+    }, {
+      position: "DEVELOPER",
+      employer: "Freelancer / Calarasi, RO",
+      timeline: {
+        from: "Februarie 2009",
+        to: "Iulie 2015"
       },
       description: ["Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%", "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%", "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes", "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"]
     }]
@@ -53595,17 +53640,17 @@ var RO = {
   contact: {
     title: "CoNTaCT",
     content: {
-      emails: ["retrocib@gmail.com"],
+      emails: ["retrocib@gmail.com", "badeaic@yahoo.com"],
       phones: ["(+40) 728 462 884"],
-      address: ["Colentina, Bucuresti / RO", "Calarasi, Calarasi / RO"],
+      address: ["Colentina - Bucuresti, RO"],
       socials: [{
-        title: "facebook",
+        title: "Ionut Catalin BADEA",
         icon: "fa fa-facebook",
-        link: "https://facebook.com"
+        link: "https://www.facebook.com/ionutcatalin.badea.1"
       }, {
-        title: "linkedin",
+        title: "Ionut Catalin BADEA",
         icon: "fa fa-linkedin",
-        link: "https://linkedin.com"
+        link: "https://www.linkedin.com/in/ionut-catalin-badea-b8a853116/"
       }]
     }
   },
@@ -53642,6 +53687,9 @@ var RO = {
     }]
   },
   //
+  txt: {
+    testimonials: "ReCoMaNDaRi"
+  },
   message: {
     hello: "salut lume!"
   }
@@ -53820,8 +53868,7 @@ __webpack_require__.r(__webpack_exports__);
 var Util = {
   i18n_locale: function i18n_locale(locale) {
     i18n.locale = locale;
-  },
-  shareOnFacebook: function shareOnFacebook() {}
+  }
 };
 
 /***/ }),

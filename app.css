@@ -12284,3 +12284,35 @@ a:hover {
   box-shadow: #E6D1AB 0 1.1rem inset;
   background-color: #D8B270;
 }
+
+header {
+  margin: 3rem 0 6rem;
+}
+header .flags {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+header .flags span {
+  margin: 0 2px;
+}
+header .flags a {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+}
+header .title {
+  margin-bottom: 2rem;
+}
+header .title h1 span {
+  display: block;
+}
+header .title h1 span:first-child {
+  font-size: 4rem;
+}
+header .title h1 span:last-child {
+  font-size: 3rem;
+}
+
+footer {
+  padding: 0 0 3rem;
+}
