@@ -95,6 +95,11 @@ const RO = {
     ]
   },
   //
+  txt:{
+    testimonials: "ReCoMaNDaRi",
+  },
+  
+
   message: {
     hello: "salut lume!"
   }
