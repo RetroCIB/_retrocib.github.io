@@ -1,7 +1,7 @@
 export const roRO = {
     resume: {
       title: "Pe SCuRT",
-      content: "Sunt un programator cu o vechime de peste 5+ ani in web design si development."
+      content: "Sunt un programator cu o vechime de peste 10 ani in dezvoltarea aplicatiilor web si desktop."
     },
     experience: {
       title: "eXPeRieNTa",
@@ -14,10 +14,7 @@ export const roRO = {
             to: "Present"
           },
           description: [
-            "Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%",
-            "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%",
-            "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes",
-            "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"
+            "Dezvoltare aplicatii in conformitate cu cerintele clientului.",
           ]
         },
         {
@@ -28,10 +25,7 @@ export const roRO = {
             to: "Present"
           },
           description: [
-            "Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%",
-            "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%",
-            "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes",
-            "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"
+            "Dezvoltare aplicatii in conformitate cu cerintele clientului.",
           ]
         },
         {
@@ -42,10 +36,7 @@ export const roRO = {
             to: "Iulie 2015"
           },
           description: [
-            "Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%",
-            "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%",
-            "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes",
-            "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"
+            "Dezvoltare aplicatii in conformitate cu cerintele clientului.",
           ]
         }
       ]
@@ -81,13 +72,50 @@ export const roRO = {
       title: "aBiLiTaTi",
       content: [
         {
+          title: "HTML",
+          level: 0
+        },
+        {
+          title: "CSS ( SCSS, Bootstrap, Materialize ... )",
+          level: 0
+        },
+        {
           title: "PHP",
           level: 0
         },
         {
-          title: "JS",
+          title: "JS ( jQuery , Vue ...)",
+          level: 0
+        },
+        {
+          title: "C / C++",
+          level: 0
+        },
+        {
+          title: "Python",
+          level: 0
+        },
+        {
+          title: "Java",
+          level: 0
+        },
+        {
+          title: "Pascal",
+          level: 0
+        },
+        {
+          title: "POO",
+          level: 0
+        },
+        {
+          title: "Assembler 80x86",
+          level: 0
+        },
+        {
+          title: "Git ( Sourcetree )",
           level: 0
         }
+
       ]
     },
     education: {

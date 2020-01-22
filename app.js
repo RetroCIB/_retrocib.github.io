@@ -53695,7 +53695,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_i18n__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-i18n */ "./node_modules/vue-i18n/dist/vue-i18n.esm.js");
 /* harmony import */ var _ro_RO__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ro-RO */ "./src/js/dictionary/ro-RO.js");
 /* harmony import */ var _en_UK__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./en-UK */ "./src/js/dictionary/en-UK.js");
-//
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_i18n__WEBPACK_IMPORTED_MODULE_1__["default"]);
@@ -53724,7 +53723,7 @@ __webpack_require__.r(__webpack_exports__);
 var roRO = {
   resume: {
     title: "Pe SCuRT",
-    content: "Sunt un programator cu o vechime de peste 5+ ani in web design si development."
+    content: "Sunt un programator cu o vechime de peste 10 ani in dezvoltarea aplicatiilor web si desktop."
   },
   experience: {
     title: "eXPeRieNTa",
@@ -53735,7 +53734,7 @@ var roRO = {
         from: "Februarie 2017",
         to: "Present"
       },
-      description: ["Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%", "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%", "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes", "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"]
+      description: ["Dezvoltare aplicatii in conformitate cu cerintele clientului."]
     }, {
       position: "DEVELOPER",
       employer: "Freelancer / Bucuresti, RO",
@@ -53743,7 +53742,7 @@ var roRO = {
         from: "August 2015",
         to: "Present"
       },
-      description: ["Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%", "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%", "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes", "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"]
+      description: ["Dezvoltare aplicatii in conformitate cu cerintele clientului."]
     }, {
       position: "DEVELOPER",
       employer: "Freelancer / Calarasi, RO",
@@ -53751,7 +53750,7 @@ var roRO = {
         from: "Februarie 2009",
         to: "Iulie 2015"
       },
-      description: ["Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%", "Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%", "Trained over 50 staff members in internal web functions, including steps on how to independently make minor updates and changes", "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed"]
+      description: ["Dezvoltare aplicatii in conformitate cu cerintele clientului."]
     }]
   },
   contact: {
@@ -53774,10 +53773,37 @@ var roRO = {
   skills: {
     title: "aBiLiTaTi",
     content: [{
+      title: "HTML",
+      level: 0
+    }, {
+      title: "CSS ( SCSS, Bootstrap, Materialize ... )",
+      level: 0
+    }, {
       title: "PHP",
       level: 0
     }, {
-      title: "JS",
+      title: "JS ( jQuery , Vue ...)",
+      level: 0
+    }, {
+      title: "C / C++",
+      level: 0
+    }, {
+      title: "Python",
+      level: 0
+    }, {
+      title: "Java",
+      level: 0
+    }, {
+      title: "Pascal",
+      level: 0
+    }, {
+      title: "POO",
+      level: 0
+    }, {
+      title: "Assembler 80x86",
+      level: 0
+    }, {
+      title: "Git ( Sourcetree )",
       level: 0
     }]
   },
