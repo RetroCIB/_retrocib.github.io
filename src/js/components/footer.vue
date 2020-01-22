@@ -1,38 +1,22 @@
 <template>
   <footer>
-    <ul>
-      <!-- share on facebook  -->
-      <li>
-        <div
-          class="fb-share-button"
-          data-href="https://retrocib.github.io/"
-          data-layout="icon_link"
-          data-size="large"
-        >
-          <a
-            target="_blank"
-            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fretrocib.github.io%2F&amp;src=sdkpreparse"
-            class="fb-xfbml-parse-ignore"
-            >Distribuie</a
-          >
-        </div>
+    <div
+      class="fb-comments"
+      data-href="https://retrocib.github.io/"
+      data-width="100%"
+      data-numposts="5"
+    ></div>
 
-        
-      </li>
+    <div
+      class="fb-like"
+      data-href="https://retrocib.github.io"
+      data-width=""
+      data-layout="button_count"
+      data-action="like"
+      data-size="small"
+      data-share="true"
+    ></div>
 
-
-      <li>
-          <div
-          class="fb-like"
-          data-href="https://retrocib.github.io"
-          data-width=""
-          data-layout="button_count"
-          data-action="like"
-          data-size="small"
-          data-share="true"
-        ></div>
-      </li>
-    </ul>
   </footer>
 </template>
 
@@ -50,4 +34,12 @@ export default {
 };
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+    .fb-comments{
+        iframe{
+            ._5lm5._2pi3._3-8y{
+                display:none !important;
+            }
+        }
+    }
+</style>

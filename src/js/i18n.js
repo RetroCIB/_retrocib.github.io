@@ -1,8 +1,7 @@
 const RO = {
   resume: {
     title: "Pe SCuRT",
-    content:
-      "Web Developer with 5+ years of experience in designing and developing user interfaces, testing, debugging, and training staff within eCommerce technologies. Proven ability in optimizing web functionalities that improve data retrieval and workflow efficiencies."
+    content: "Sunt un programator cu o vechime de peste 5+ ani in web design si development."
   },
   experience: {
     title: "eXPeRieNTa",
