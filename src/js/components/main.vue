@@ -1,16 +1,17 @@
 <template>
   <main>
-    <div>
-      <app-main-resume></app-main-resume>
-      <app-main-experience></app-main-experience>
-    </div>
+    <b-row>
+      <b-col cols="12" md="8">
+        <app-main-resume></app-main-resume>
+        <app-main-experience></app-main-experience>
+      </b-col>
 
-    <div>
-      <app-main-contact></app-main-contact>
-      <app-main-skills></app-main-skills>
-      <app-main-education></app-main-education>
-    </div>
-
+      <b-col cols="12" md="4">
+        <app-main-contact></app-main-contact>
+        <app-main-skills></app-main-skills>
+        <app-main-education></app-main-education>
+      </b-col>
+    </b-row>
   </main>
 </template>
 
@@ -18,12 +19,12 @@
 export default {
   name: "AppMain",
   props: {},
-  components:{
+  components: {
     AppMainResume: require("./main-resume").default,
     AppMainExperience: require("./main-experience").default,
     AppMainContact: require("./main-contact").default,
     AppMainSkills: require("./main-skills").default,
-    AppMainEducation: require("./main-education").default,
+    AppMainEducation: require("./main-education").default
   },
   mounted: function() {},
 

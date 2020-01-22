@@ -22,6 +22,8 @@
   "homepage": "https://github.com/RetroCIB/retrocib.github.io#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.2.2",
     "cross-env": "^5.1",
     "jquery": "^3.2",
     "laravel-mix": "^4.0.13",

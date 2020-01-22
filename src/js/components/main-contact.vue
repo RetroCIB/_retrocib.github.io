@@ -2,23 +2,24 @@
   <section id="contact">
     <h2>{{ $t("contact.title") }}</h2>
     <article>
+      
       <ul>
         <li v-for="email in $t('contact.content.emails')">
-          {{ email }}
+         <i class="fa fa-envelope"></i> {{ email }}
         </li>
       </ul>
     </article>
     <article>
       <ul>
         <li v-for="phone in $t('contact.content.phones')">
-          {{ phone }}
+          <i class="fa fa-phone"></i> {{ phone }}
         </li>
       </ul>
     </article>
     <article>
       <ul>
         <li v-for="addres in $t('contact.content.address')">
-          {{ addres }}
+          <i class="fa fa-address-card"></i> {{ addres }}
         </li>
       </ul>
     </article>
@@ -26,6 +27,8 @@
       <ul>
         <li v-for="social in $t('contact.content.socials')">
           <a :href="social.link">
+            <i class="" :class="[social.icon]"></i>
+
             {{ social.title }}
           </a>
         </li>

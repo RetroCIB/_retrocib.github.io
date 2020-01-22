@@ -1,0 +1,81 @@
+@import "variables";
+@import "fonts";
+@import "vendor";
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  background-color: $color_3;
+  color: $color_5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "1942report";
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin-bottom: 2rem;
+  &:last-child {
+    margin-bottom: 0;
+
+    @media (max-width: 768px) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.3rem;
+}
+h5 {
+  font-size: 2rem;
+}
+h6 {
+  font-size: 1.8rem;
+}
+
+ul {
+  margin-left: 2rem;
+  li {
+  }
+}
+
+article {
+  margin-top: 1rem;
+}
+
+a {
+  // display:block;
+  color: $color_5;
+  line-height: 1.6rem;
+  margin: 0 -0.7rem;
+  padding: 0 0.7rem;
+
+  &:hover {
+    color: $color_5;
+    text-decoration: none;
+    box-shadow: $color_3 0 1.1rem inset;
+    background-color: $color_2;
+  }
+}

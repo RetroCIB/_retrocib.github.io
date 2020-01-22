@@ -46,10 +46,12 @@ const RO = {
       socials: [
         {
           title: "facebook",
+          icon: "fa fa-facebook",
           link: "https://facebook.com"
         },
         {
           title: "linkedin",
+          icon: "fa fa-linkedin",
           link: "https://linkedin.com"
         }
       ]

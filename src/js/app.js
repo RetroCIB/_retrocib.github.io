@@ -1,4 +1,9 @@
 import Vue from "vue";
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
+
+Vue.use(BootstrapVue);
+Vue.use(IconsPlugin);
+
 import { i18n } from "./i18n";
 import { Util } from "./util";
 
@@ -10,8 +15,9 @@ var Application = new Vue({
   el: "#application",
   components: {
     AppHeader: require("./components/header").default,
-    AppMain: require("./components/main").default
+    AppMain: require("./components/main").default,
+    AppFooter: require("./components/footer").default
   },
-  data: {},
+  data: {}, 
   mounted: function() {}
 });
