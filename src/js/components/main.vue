@@ -4,12 +4,12 @@
       <b-col cols="12" md="8">
         <app-main-resume></app-main-resume>
         <app-main-experience></app-main-experience>
+        <app-main-education></app-main-education>
       </b-col>
 
       <b-col cols="12" md="4">
         <app-main-contact></app-main-contact>
         <app-main-skills></app-main-skills>
-        <app-main-education></app-main-education>
       </b-col>
     </b-row>
   </main>

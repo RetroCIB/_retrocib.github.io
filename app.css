@@ -12222,7 +12222,7 @@ html {
 body {
   box-sizing: border-box;
   font-size: 1.4rem;
-  background-color: #E6D1AB;
+  background-color: #ffffff;
   color: #493D30;
 }
 
@@ -12240,9 +12240,6 @@ h6 {
 section {
   margin-bottom: 2rem;
 }
-section:last-child {
-  margin-bottom: 0;
-}
 @media (max-width: 768px) {
   section:last-child {
     margin-bottom: 2rem;
@@ -12251,6 +12248,7 @@ section:last-child {
 
 h2 {
   font-size: 3rem;
+  padding-left: 2rem;
 }
 
 h3 {
@@ -12281,7 +12279,7 @@ a {
 a:hover {
   color: #493D30;
   text-decoration: none;
-  box-shadow: #E6D1AB 0 1.1rem inset;
+  box-shadow: #ffffff 0 1.1rem inset;
   background-color: #D8B270;
 }
 

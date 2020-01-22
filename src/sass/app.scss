@@ -16,7 +16,7 @@ html {
 body {
   box-sizing: border-box;
   font-size: 1.4rem;
-  background-color: $color_3;
+  background-color: $color_0;
   color: $color_5;
 }
 
@@ -34,7 +34,7 @@ h6 {
 section {
   margin-bottom: 2rem;
   &:last-child {
-    margin-bottom: 0;
+    // margin-bottom: 0;
 
     @media (max-width: 768px) {
       margin-bottom: 2rem;
@@ -44,6 +44,7 @@ section {
 
 h2 {
   font-size: 3rem;
+  padding-left:2rem;
 }
 h3 {
   font-size: 2.3rem;
@@ -75,7 +76,7 @@ a {
   &:hover {
     color: $color_5;
     text-decoration: none;
-    box-shadow: $color_3 0 1.1rem inset;
+    box-shadow: $color_0 0 1.1rem inset;
     background-color: $color_2;
   }
 }

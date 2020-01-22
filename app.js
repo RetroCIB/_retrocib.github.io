@@ -282,10 +282,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "AppMainEducation",
   props: {},
@@ -40620,57 +40616,50 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { attrs: { id: "education" } }, [
-    _c("h2", [_vm._v(_vm._s(_vm.$t("education.title")))]),
-    _vm._v(" "),
-    _c("article", [
-      _c(
-        "ul",
-        _vm._l(_vm.$t("education.content"), function(education) {
-          return _c("li", [
-            _c("h3", [
-              education.link && education.link.length
-                ? _c("a", { attrs: { href: education.link } }, [
-                    _c("span", [
-                      _vm._v(
-                        "\n              " +
-                          _vm._s(education.course) +
-                          "\n            "
-                      )
-                    ])
-                  ])
-                : _c("span", [
+  return _c(
+    "section",
+    { attrs: { id: "education" } },
+    [
+      _c("h2", [_vm._v(_vm._s(_vm.$t("education.title")))]),
+      _vm._v(" "),
+      _vm._l(_vm.$t("education.content"), function(education) {
+        return _c("article", [
+          _c("h3", [
+            education.link && education.link.length
+              ? _c("a", { attrs: { href: education.link } }, [
+                  _c("span", [
                     _vm._v(
-                      "\n            " +
-                        _vm._s(education.course) +
-                        "\n          "
+                      "\n          " + _vm._s(education.course) + "\n        "
                     )
                   ])
-            ]),
-            _vm._v(" "),
-            _c("h5", [_vm._v(_vm._s(education.school))]),
-            _vm._v(" "),
-            _c("h6", [
-              _c("span", [_vm._v(_vm._s(education.timeline.from))]),
-              _vm._v("\n          -\n          "),
-              _c("span", [_vm._v(_vm._s(education.timeline.to))])
-            ]),
-            _vm._v(" "),
-            education.competences && education.competences.length
-              ? _c(
-                  "ul",
-                  _vm._l(education.competences, function(competence) {
-                    return _c("li", [_c("i", [_vm._v(_vm._s(competence))])])
-                  }),
-                  0
-                )
-              : _vm._e()
-          ])
-        }),
-        0
-      )
-    ])
-  ])
+                ])
+              : _c("span", [
+                  _vm._v("\n        " + _vm._s(education.course) + "\n      ")
+                ])
+          ]),
+          _vm._v(" "),
+          _c("h5", [_vm._v(_vm._s(education.school))]),
+          _vm._v(" "),
+          _c("h6", [
+            _c("span", [_vm._v(_vm._s(education.timeline.from))]),
+            _vm._v("\n      -\n      "),
+            _c("span", [_vm._v(_vm._s(education.timeline.to))])
+          ]),
+          _vm._v(" "),
+          education.competences && education.competences.length
+            ? _c(
+                "ul",
+                _vm._l(education.competences, function(competence) {
+                  return _c("li", [_c("i", [_vm._v(_vm._s(competence))])])
+                }),
+                0
+              )
+            : _vm._e()
+        ])
+      })
+    ],
+    2
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -40830,20 +40819,20 @@ var render = function() {
           _c(
             "b-col",
             { attrs: { cols: "12", md: "8" } },
-            [_c("app-main-resume"), _vm._v(" "), _c("app-main-experience")],
+            [
+              _c("app-main-resume"),
+              _vm._v(" "),
+              _c("app-main-experience"),
+              _vm._v(" "),
+              _c("app-main-education")
+            ],
             1
           ),
           _vm._v(" "),
           _c(
             "b-col",
             { attrs: { cols: "12", md: "4" } },
-            [
-              _c("app-main-contact"),
-              _vm._v(" "),
-              _c("app-main-skills"),
-              _vm._v(" "),
-              _c("app-main-education")
-            ],
+            [_c("app-main-contact"), _vm._v(" "), _c("app-main-skills")],
             1
           )
         ],
@@ -53773,19 +53762,16 @@ var roRO = {
   skills: {
     title: "aBiLiTaTi",
     content: [{
+      title: "PHP",
+      level: 0
+    }, {
+      title: "JavaScript ( jQuery , Vue ...)",
+      level: 0
+    }, {
       title: "HTML",
       level: 0
     }, {
       title: "CSS ( SCSS, Bootstrap, Materialize ... )",
-      level: 0
-    }, {
-      title: "PHP",
-      level: 0
-    }, {
-      title: "JS ( jQuery , Vue ...)",
-      level: 0
-    }, {
-      title: "C / C++",
       level: 0
     }, {
       title: "Python",
@@ -53794,10 +53780,13 @@ var roRO = {
       title: "Java",
       level: 0
     }, {
-      title: "Pascal",
+      title: "POO",
       level: 0
     }, {
-      title: "POO",
+      title: "C / C++",
+      level: 0
+    }, {
+      title: "Pascal",
       level: 0
     }, {
       title: "Assembler 80x86",
@@ -53810,21 +53799,12 @@ var roRO = {
   education: {
     title: "eDuCaTie",
     content: [{
-      course: "B.S. WEB DEVELOPMENT",
-      school: "California State University Fullerton, CA",
+      course: "Informatica",
+      school: "Facultatea de Matematica si Informatica - Universitatea Bucuresti, RO",
       link: "",
       timeline: {
-        from: "September 2016",
-        to: "Present"
-      },
-      competences: []
-    }, {
-      course: "B.S. WEB DEVELOPMENT",
-      school: "California State University Fullerton, CA",
-      link: "",
-      timeline: {
-        from: "September 2016",
-        to: "Present"
+        from: "Septembrie 2015",
+        to: "Iunie 2018"
       },
       competences: []
     }]
