@@ -4,8 +4,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>(Retro) Catalin Ionut BADEA</title>
+
+    <style>
+        #bila{
+            position:absolute;
+            display:block;
+            background:red;
+            content: "";
+            border-radius: 50%;
+        }
+    </style>
+
 </head>
 <body>
-    test
+
+
+    <span id="bila"></span>
+    <script>
+        function draw_to(x,y,r){
+            var el = document.querySelector('#bila');
+            el.style.width = r + 'px';
+            el.style.height = r + 'px';
+            el.style.top = Math.floor(y + ( r/2 ));
+            el.style.left = Math.floor(x + ( r/2 ));
+        }
+
+
+        var max_x = window.innerWidth;
+        var max_y = window.innerHeight;
+        var min_x = min_y = 0;
+
+        //
+        var x= Math.floor( max_x / 2);
+        var y= Math.floor( max_y / 2);
+        var r = 10;
+        //
+        var dx = 1;
+        var dy = 1;
+        //    
+        setInterval(function(){
+            //
+            if(((x + (dx * r)) >= max_x) || ((x + (dx * r)) <= min_x)){
+                dx*=(-1);
+            }
+            if(((y + (dy * r)) >= max_y) || ((y + (dy * r)) <= min_y)){
+                dy*=(-1);
+            }
+            //
+            x += (dx * r);
+            y += (dy * r);
+
+            draw_to(x,y,r);
+        }, 50);
+
+    </script>
 </body>
+
 </html>
