@@ -15,7 +15,7 @@
           class="fb-like"
           data-href="https://retrocib.github.io"
           data-width=""
-          data-layout="standard"
+          data-layout="button_count"
           data-action="like"
           data-size="small"
           data-share="true"
